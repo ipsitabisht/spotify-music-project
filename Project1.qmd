@@ -1,0 +1,27 @@
+---
+title: "Spotify Track List Music Features Analysis"
+format: html
+editor: visual
+---
+
+## Introduction
+
+Musical preferences vary from person to person and can be categorized based on genres. Genres broadly contain songs of varying sounds but have similar attributes that they can have in common. I want to explore what sort of music features attribute songs to specific genres and understand what contributes to the success of a song within its genre. This brings me to my main question about music popularity: What audio features best predict a track's popularity within specific genres, and how do these success factors differ across genres?
+
+### Motivation
+
+### Hypothesis
+
+### Spotify TrackList Dataset
+
+## Data
+```{r}
+install.packages("dplyr", repos = "https://cloud.r-project.org/")
+library(dplyr)
+df <- read.csv("data/spotify.csv")
+glimpse(df)
+
+```
+
+
+
