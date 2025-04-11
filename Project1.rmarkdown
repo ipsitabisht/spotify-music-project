@@ -4,6 +4,8 @@ format: html
 editor: visual
 ---
 
+
+
 ## Introduction
 
 ### Questions:
@@ -34,6 +36,8 @@ These features and metrics come from the Spotfiy's Web API that is able to get a
 
 ## Data
 
+
+
 ```{r}
 install.packages("dplyr", repos = "https://cloud.r-project.org/")
 library(dplyr)
@@ -41,3 +45,4 @@ df <- read.csv("data/spotify.csv")
 glimpse(df)
 
 ```
+
